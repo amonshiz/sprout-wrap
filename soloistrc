@@ -3,7 +3,6 @@ recipes:
 - meta::osx_development
 - meta::ruby_development
 - meta::amonshiz_specifics
-- pivotal_workstation::git_projects
 node_attributes:
   git_projects:
     -
