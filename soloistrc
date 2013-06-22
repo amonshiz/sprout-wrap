@@ -1,7 +1,6 @@
 recipes:
 - meta::osx_base
 - meta::osx_development
-- meta::ruby_development
 - meta::amonshiz_specifics
 node_attributes:
   git_projects:
