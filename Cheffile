@@ -26,3 +26,7 @@ cookbook 'sprout-pivotal',
 cookbook 'osx',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
   :path => 'osx'
+  
+cookbook 'amonshiz_workstation'
+  :git => 'git://github.com/amonshiz/sprout.git',
+  :path => 'amonshiz_workstation'
