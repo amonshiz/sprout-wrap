@@ -4,6 +4,15 @@ SITE
     dmg (1.1.0)
 
 GIT
+  remote: git://github.com/amonshiz/sprout.git
+  path: amonshiz_workstation
+  ref: master
+  sha: 9efb9e61a04940904d6fe01232e1547bf56db4f6
+  specs:
+    amonshiz_workstation (0.1.0)
+      dmg (>= 0.0.0)
+
+GIT
   remote: git://github.com/pivotal-sprout/sprout.git
   path: osx
   ref: master
@@ -72,6 +81,7 @@ PATH
       sprout-osx-settings (>= 0.0.0)
 
 DEPENDENCIES
+  amonshiz_workstation (>= 0)
   meta (>= 0)
   osx (>= 0)
   pivotal_workstation (>= 0)
